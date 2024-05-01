@@ -11,7 +11,7 @@ from PIL import ImageFilter, ImageFont, ImageOps
 from unidecode import unidecode
 from youtubesearchpython.__future__ import VideosSearch
 
-from VIPMUSIC import app
+from ThavaXMusic import app
 from config import MUSIC_BOT_NAME, YOUTUBE_IMG_URL
 
 
