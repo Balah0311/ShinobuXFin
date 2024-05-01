@@ -21,7 +21,7 @@ from ThavaXMusic.utils.decorators.language import language, languageCB
 from ThavaXMusic.utils.inline.playlist import (botplaylist_markup,
                                               get_playlist_markup,
                                               warning_markup)
-from ThavaXMusic.utils.pastebin import VIPBin
+from ThavaXMusic.utils.pastebin import ThavaBin
 import time
 import asyncio
 import yt_dlp
