@@ -26,7 +26,7 @@ def private_panel(_):
         ],
         [InlineKeyboardButton(text="𝐇𝐞𝐥𝐩", callback_data="settings_back_helper")],
         [
-            InlineKeyboardButton(text="𝐇𝐞𝐚𝐯𝐞𝐧", url=config.SUPPORT_CHAT),
+            InlineKeyboardButton(text="𝐍𝐞𝐭𝐰𝐨𝐫𝐤", url=config.SUPPORT_CHAT),
             InlineKeyboardButton(text="𝐔𝐩𝐝𝐚𝐭𝐞𝐬", url=config.SUPPORT_CHANNEL),
         ],
         [
