@@ -69,7 +69,7 @@ def stream_markup_timer(_, chat_id, played, dur):
             InlineKeyboardButton(text="▢", callback_data=f"ADMIN Stop|{chat_id}"),
         ],
           [
-            InlineKeyboardButton(text="𝐍𝐞𝐭𝐰𝐨𝐫𝐤", url=config.SUPPORT_CHAT),
+            InlineKeyboardButton(text="𝐍𝐞𝐭𝐰𝐨𝐫𝐤", url="https://t.me/Team_Hypers_Networks"),
             InlineKeyboardButton(text="𝐃𝐚𝐫𝐥𝐢𝐧𝐠 ᥫ᭡", user_id=config.OWNER_ID),           
         ],    
        
@@ -88,7 +88,7 @@ def stream_markup(_, chat_id):
             InlineKeyboardButton(text="▢", callback_data=f"ADMIN Stop|{chat_id}"),
         ],
          [
-            InlineKeyboardButton(text="𝐍𝐞𝐭𝐰𝐨𝐫𝐤", url=config.SUPPORT_CHAT),
+            InlineKeyboardButton(text="𝐍𝐞𝐭𝐰𝐨𝐫𝐤", url="https://t.me/Team_Hypers_Networks"),
             InlineKeyboardButton(text="𝐃𝐚𝐫𝐥𝐢𝐧𝐠 ᥫ᭡", user_id=config.OWNER_ID),            
         ],         
         [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
